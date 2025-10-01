@@ -97,8 +97,8 @@ a:focus{
 .container-sm,
 .container-xl,
 .container-xxl{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 /* new  */
@@ -110,6 +110,13 @@ a:focus{
 .zahi{
 	background-color:#682670;
 	margin-bottom: 15px;
+}
+
+
+.asa{
+	    background-color: #682670;
+    padding-top: 15px;
+    border-radius: 17px;
 }
 
 
@@ -527,7 +534,7 @@ a:focus{
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	line-height: normal;
-    color: var(--accent-color);
+    color:#FFF ;
 	padding-left: 16px;
     margin-bottom: 15px;
 }
@@ -538,7 +545,7 @@ a:focus{
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: var(--accent-color);
+    background: #FFF;
     border-radius: 50%;
     width: 6px;
     height: 6px;
@@ -2241,10 +2248,14 @@ header.main-header .header-sticky.active{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 500px;
+    min-height: 200px;
     padding: 50px;
 }
 
+.gel h2{
+	margin-bottom: 40px;
+	text-align: center;
+}
 .testimonial-rating{
 	margin-bottom: 30px;
 }
@@ -2270,8 +2281,8 @@ header.main-header .header-sticky.active{
 	justify-content: space-between;
 	gap: 10px;
     border-top: 1px solid var(--divider-color);
-	padding-top: 50px;
-	margin-top: 50px;
+	padding-top: 20px;
+	margin-top: 20px;
 }
 
 .testimonial-author{
@@ -2683,10 +2694,32 @@ header.main-header .header-sticky.active{
 }
 
 .footer-contact-box{
-    width: 270px;
+    /* width: 270px; */
     background: var(--dark-divider-color);
     border-radius: 10px;
     padding: 25px;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 100;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s 
+ease-in-out;
+    animation: pulse 2s infinite;
 }
 
 .footer-contact-box-title h3{
@@ -2701,6 +2734,7 @@ header.main-header .header-sticky.active{
 .footer-contact-box-title h3 a{
     color: inherit;
     transition: all 0.4s ease-in-out;
+	font-size: 16px;
 }
 
 .footer-contact-box-title h3 a:hover{
@@ -4285,7 +4319,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-gallery{
-	padding: 100px 0 70px;
+	padding: 60px 0 70px;
 }
 
 .page-gallery-box .photo-gallery{
