@@ -123,7 +123,7 @@ a:focus{
         .slider-container {
             /* width: 90%;
             max-width: 1000px; */
-            height: 500px;
+            height: 600px;
             margin: 20px auto;
             overflow: hidden;
             position: relative;
@@ -318,7 +318,7 @@ a:focus{
 .btn-default{
 	position: relative;
     display: inline-block;
-    background: var(--accent-color);
+    background: purple;
 	border-radius: 100px;
     font-size: 16px;
     font-weight: 600;
@@ -561,12 +561,19 @@ a:focus{
 	font-size: 46px;
 	margin-bottom: 0;
 	cursor: none;
-	color:#F2F7FF;
+	color:purple;
 }
 
 .section-title p{
 	margin-top: 20px;
 	margin-bottom: 0;
+}
+
+.about-banner{
+	background-image:url(/img/banner-abb.png);
+	background-position: center center;
+	background-size: cover;
+  height: 500px;
 }
 
 .dark-section{
@@ -2807,6 +2814,7 @@ ease-in-out;
     position: relative;
 	text-align: center;
     z-index: 1;
+	margin-top: 170px;
 }
 
 .page-header-box h1{
@@ -2848,11 +2856,11 @@ ease-in-out;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	gap: 50px;
+	gap: 20px;
 	background: var(--white-color);
 	border-radius: 20px;
 	height: calc(100% - 30px);
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	padding: 40px;
 }
 
@@ -2871,7 +2879,7 @@ ease-in-out;
 
 .approach-item-list{
 	border-top: 1px solid var(--divider-color);
-	padding-top: 40px;
+	padding-top: 15px;
 	margin-right: 40px;
 }
 
@@ -2885,11 +2893,11 @@ ease-in-out;
 	position: relative;
 	line-height: 1.5em;
 	padding-left: 25px;
-	margin-bottom: 15px;
+	margin-bottom: 8px;
 }
 
 .approach-item-list ul li:last-child{
-	margin-bottom: 0;
+	margin-bottom: 10;
 }
 
 .approach-item-list ul li::before{
@@ -3108,14 +3116,14 @@ ease-in-out;
 	font-weight: 500;
 	line-height: 1.333em;
 	background-color: transparent;
-	color: var(--primary-color);
+	color: white;
     padding: 20px 60px 20px 30px;
 	transition: all 0.3s ease-in-out;
 }
 
 .faq-accordion .accordion-button:not(.collapsed){
    background-color: transparent;
-   color: var(--primary-color);
+   color: white;
 }
 
 .faq-accordion .accordion-item .accordion-button::after,
@@ -3143,7 +3151,7 @@ ease-in-out;
 }
 
 .faq-accordion .accordion-item .accordion-body p{
-    color: var(--text-color);
+    color: white;
 	margin: 0;
 }
 
@@ -4937,7 +4945,7 @@ ease-in-out;
 @media only screen and (max-width: 1366px){
 
 	.navbar{
-        padding: 25px 20px;
+        /* padding: 25px 20px; */
     }
 
     .main-menu ul li{
