@@ -3344,7 +3344,7 @@ ease-in-out;
 
 .page-single-image img{
     width: 100%;
-    aspect-ratio: 1 / 0.541;
+    aspect-ratio: 1.5 / 0.541;
     object-fit: cover;
 	border-radius: 20px;
 }
