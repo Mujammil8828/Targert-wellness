@@ -2761,7 +2761,7 @@ ease-in-out;
 
 .footer-contact-box-hour p{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     gap: 10px;
     color: var(--white-color);
