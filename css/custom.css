@@ -123,7 +123,7 @@ a:focus{
         .slider-container {
             /* width: 90%;
             max-width: 1000px; */
-            height: 600px;
+            height: 540px;
             margin: 20px auto;
             overflow: hidden;
             position: relative;
@@ -534,10 +534,11 @@ a:focus{
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	line-height: normal;
-    color:#FFF ;
+    color:var(--primary-color) ;
 	padding-left: 16px;
     margin-bottom: 15px;
 }
+
 
 .section-title h3::before{
 	content: '';
@@ -570,7 +571,7 @@ a:focus{
 }
 
 .about-banner{
-	background-image:url(/img/banner-abb.png);
+	/* background-image:url(/img/banner-abb.png); */
 	background-position: center center;
 	background-size: cover;
   height: 500px;
@@ -797,6 +798,7 @@ header.main-header .header-sticky.active{
 	margin: 0;
 	border-radius: 8px;
 }
+
 
 .slicknav_icon .slicknav_icon-bar{
 	display: block;
@@ -1346,7 +1348,7 @@ header.main-header .header-sticky.active{
 
 .year-experience-circle img{
 	width: 100%;
-	max-width: 160px;
+	max-width: 140px;
 	border: 10px solid var(--white-color);
 	border-radius: 50%;
 	animation: infiniterotate 20s infinite linear;
